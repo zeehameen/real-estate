@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url(./images/background\ image.jpg);
+    width: 100%;
+    height: 109vh;
+    background-position: center;
+    background-size: cover;
+}
+.icon{
+    width: 30px;
+    height: 40px;
+}
+.iconp{
+    display: flex;
+    margin-top: 1rem;
+}
+.iconp img{
+    width: 35px;
+    height: 35px;
+}
+.iconp > h1{
+    color: rgb(168, 181, 33);
+    padding-right: 7px;
+    font-family: Arial;
+}
+.main{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+}
+.nav{
+    float: left;
+    width: 400px;
+    height: 70px;
+} 
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+}
+.search{
+    margin-top: 5px;
+    float: right;
+    width: 300px;
+    margin-left: 300px;
+    outline: none;
+}
+.btn{
+    float: left;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(168, 181, 33);
+    margin-top: 13px;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    border: none;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    margin-top: 13px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    border: 1px solid rgb(168, 181, 33);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    background: transparent
+}
+
+.content{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin: auto;
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+h1 > span{
+    color: rgb(168, 181, 33);
+}
+.content p{
+    padding-left: 20px;
+    letter-spacing: 1.5px;
+    font-family: 'Arial';
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.content button{
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: rgb(168, 181, 33);
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 5px;
+    width: 270px;
+    height: 380px;
+    margin-right: 5rem;
+    margin-top: 100px;
+    color: white;
+    padding: 25px;
+}
+.section{
+    display: flex;
+} 
+form h2{
+    width: 200px;
+    text-align: center;
+    color: rgb(168, 181, 33);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    margin-left: 1.5rem;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid rgb(168, 181, 33);
+    background: transparent;
+    margin: 20px;
+    width: 240px;
+    height: 33px;
+    color: white;
+}    
+form button{
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(168, 181, 33);
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+}
+.sign-up{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+} 
+
+.sign-up > a{
+    color: rgb(168, 181, 33);
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.logo > img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+p + p{
+    margin-top: 10px;
+ text-align: center;}
+ 
+ 
+@media screen and (max-width:300px) {
+.media {
+    background-color: purple;
+}
+}
+@media screen and (min-width:476px) {
+.media{
+    background-color: red;
+}
+}
+@media screen and (min-width:768px)  {
+.media{
+    background-color: blue;
+}
+}
+@media screen and (min-width:996px)  {
+.media{
+    background-color: orange;
+}
+}
+@media screen and (max-width:1200px)  {
+.media{
+    background-color: green;
+}
+}
+
+p {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    }
