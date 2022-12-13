@@ -9,6 +9,7 @@ body{
     height: 109vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .icon{
     width: 30px;
@@ -57,7 +58,7 @@ li a{
 }
 .search{
     margin-top: 5px;
-    float: right;
+    /* float: right; */
     width: 300px;
     margin-left: 300px;
     outline: none;
@@ -214,8 +215,59 @@ p + p{
     background-color: green;
 }
 }
-
-p {
-    font-size: 50px;
-    font-family:'Times New Roman', Times, serif;
+@media only screen and (max-width:500px){
+    body{
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    } 
+    .main{
+        display: block;
+        width: 100%;
     }
+    .nav{
+        width: 100%;
+        background-color: brown;
+        margin-top: 15px;
+        height: auto;
+    }
+    ul{
+        /* float: none; */
+        /* margin-top: 15px; */
+        padding: 0;
+        background-color: brown;
+    }
+   
+    ul li{
+        margin: 5px;
+        padding: 5px;
+    }
+    .iconp{
+        width: 60%;
+        margin-left: 10px;
+    }
+    .search{
+        margin: 0;
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        right: 5px;
+       width: 40%;
+    }
+    .srch{
+        width: 70%;
+    }
+    .btn{
+        width: 30%;
+    }
+    .section{
+        display: block;
+    }
+    .content{
+        width: 90%;
+        float: none;
+    }
+    form{
+        margin: 30px;
+    }
+}
