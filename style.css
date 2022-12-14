@@ -226,6 +226,7 @@ p + p{
         width: 100%;
     }
     .nav{
+        display: none;
         width: 100%;
         background-color: brown;
         margin-top: 15px;
